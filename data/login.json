@@ -1,0 +1,32 @@
+[
+  {
+    "desc": "case01 登陆成功",
+    "username": 13812345678,
+    "password": 123456,
+    "verify_code": 8888,
+    "content_type": "image",
+    "status_code": 200,
+    "status": 1,
+    "msg": "登陆成功"
+  },
+    {
+    "desc": "case02 账号不存在",
+    "username": 13812345679,
+    "password": 123456,
+    "verify_code": 8888,
+    "content_type": "image",
+    "status_code": 200,
+    "status": -1,
+    "msg": "账号不存在"
+  },
+    {
+    "desc": "case03 密码错误",
+    "username": 13812345678,
+    "password": 123457,
+    "verify_code": 8888,
+    "content_type": "image",
+    "status_code": 200,
+    "status": -2,
+    "msg": "密码错误"
+  }
+]
